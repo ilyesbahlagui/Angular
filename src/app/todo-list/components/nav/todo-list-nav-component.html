@@ -1,0 +1,9 @@
+
+<h3>LISTE DE FRUITS</h3>
+<ul>
+    <li
+      [id]="'item-' + item"
+      *ngFor="let item of myArray; first as f; last as l; index as i">
+      {{i+1}}) {{item}} 
+    </li>
+  </ul>

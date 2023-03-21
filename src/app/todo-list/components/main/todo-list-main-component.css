@@ -1,0 +1,23 @@
+
+.bckMain {
+    background-color: aqua;
+    color: black;
+    background-color: bisque;
+    text-align: center;
+}
+
+.btn {
+    background-color: brown;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+}
+
+.lien {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}

@@ -1,0 +1,15 @@
+<app-todo-list-header></app-todo-list-header>
+<app-todo-list-nav></app-todo-list-nav>
+
+
+<h1 [class.bckMain]="isActive" [style.fontSize.rem]="4" [style.width.px]="900">{{ titreMain }}</h1>
+
+<label for=""> Changer le titre du Main </label><br>
+<input type="text" [(ngModel)]="titreMain"><br>
+
+
+<a [class.lien]="true" [href]="gitURL">
+  Lien GITHUB
+</a>
+<br>
+<button [class.btn]="true" (click)="changeColor()">Donne du style au titre main</button>
